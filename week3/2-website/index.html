@@ -1,86 +1,261 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Responsive Cake webpage</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Pacifico&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet"    />
+    <title>Responsive Cake webpage</title>
   </head>
-
   <body>
-    <header>
+     <header>
+       <div class="container-fluid">
+      
       <div class="top-header">
-        <img
-          class="header-image"
-          src="https://i.postimg.cc/Zq6Jqk9D/2a6c1858-0fe8-48a7-82fe-1976833b8691-200x200.png"
-          alt="Let Them Eat Cake logo"
-        />
+         
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+          <div class="logo"></div>
+          <a class="navbar-brand" href="index.html">
+            <img src="https://i.postimg.cc/Zq6Jqk9D/2a6c1858-0fe8-48a7-82fe-1976833b8691-200x200.png"
+            alt="Let Them Eat Cake logo"width="100"></a>
 
-        <button class="contact-button">Contact</button>
-      </div>
-
-      <nav class="navigation">
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Cakes</a></li>
-          <li><a href="">Ordering</a></li>
-          <li><a href="">Lessons</a></li>
-          <li><a href="">About</a></li>
-        </ul>
-      </nav>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cakes</a>
+              </li>                             
+              <li class="nav-item">
+                <a class="nav-link" href="#">Lessons</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About</a>
+              </li>
+            </ul>
+          </div>            
+  
+        <div class="dropdown-divider"></div>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Ordering</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#Diary-free Cupcakes">Cupcake</a>
+          <a class="dropdown-item" href="#">Chocolate Cake</a>
+          <a class="dropdown-item" href="#Wedding-Cake" class="btn btn-primary">wedding Cake</a>
+          <a class="dropdown-item" href="#" class="btn btn-primary">Anniversary</a>
+          
+    </div>
+  
+  
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+    </li>
+    </ul>
+   </div>
+  </div>
+  
+   </nav>
+        
+         
     </header>
 
     <main>
       <section class="about">
-        <h1>Let Them Eat Cake</h1>
+        <h1>Our Beaufifully designed cakes</h1>
 
+      </section>
         <h3>Feeding the cake deprived since 2020</h3>
+        <section class="example-cakes">
 
-        <img
-          class="cupcakes"
-          src="../images/Cakes/cupcakes.jpg"
-          alt="Cupcakes with sprinkles"
-        />
+
+        
+      <!-- <div class="container text-muted">
+        cards
+        <div class="row">
+          <div class="col-sm-3 col-lg-4">
+            <div class="card">
+              <img src="../img/img13.jpg" class="card-img-top img-fluid"
+              alt="Cupcakes with sprinkles"/>                        
+              <div class="card-block">
+                <h4 class="card-title">Cupcakes</h4>
+                <p class="card-text">Cupcakes treat everyone can enjoy.</p>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="picture">
+            <img src="../img/cake6.jpg" alt="Giant Wedding Cake" id="wedding Cake"/>
+          </div>
+          
+
+
+  <!--cards-->
+  
+    <!-- <div class="col-sm-3 col-lg-4">
+      <div class="card">
+        <img src="../img/cake2.jpg" class="card-img-top img-fluid"        
+        alt="Chocolate Cake"/>                        
+        <div class="card-block">
+          <h4 class="card-title">Chocolate Cake</h4>
+          <a href="#" class="btn btn-primary">Diary-free Chocolate cake</a>
+           <p class="card-text">Chocolate cake for special occasion.</p> -->
+          
+        <!-- </div>
+      </div>
+    </div>
+      </div>
+ 
+  
+    cards-->
+  
+      <!-- <div class="col-sm-3 col-lg-4">
+        <div class="card">
+          <img src="../img/cake9.jpg" class="card-img-top img-fluid"
+          alt="Cupcakes with sprinkles"/>                        
+          <div class="card-block">
+            <h4 class="card-title">wedding Cake</h4>
+            <p class="card-text">Beaufiful design for your special day.</p>
+            <a href="#" class="btn btn-primary">Diary-free wedding Cake</a>
+          </div>
+        </div>
+      </div>
+        </div> -->
+   
+
+          <!--cards-->
+        <!-- <div class="col-sm-3 col-lg-4">
+          <div class="card">
+            <img src="../img/img12.jpg" class="card-img-top"
+            alt="Cupcakes with sprinkles"/>                        
+            <div class="card-block">
+              <h4 class="card-title">Children's Cake</h4>
+              <p class="card-text">Specially designed cake for your children's birthday party.</p>
+              <a href="#" class="btn btn-primary">Diary-free Cupcakes</a>
+            </div>
+          </div>
+        </div>
+          </div>
+          <div class="col-sm-3 col-lg-4">
+            <div class="card"> -->
+              <!-- <img src="../img/img14.jpg" class="card-img-top img-fluid"        
+              alt="Chocolate Cake"/>                        
+              <div class="card-block">
+                <h4 class="card-title">Chocolate Cake</h4>
+                <a href="#" class="btn btn-primary">Diary-free Chocolate cake</a> -->
+                <!-- <p class="card-text">Chocolate cake for special occasion.</p> -->
+                
+              </div>
+            </div>
+          </div>
+            </div>
+
+            <!-- <div class="col-sm-3 col-lg-4">
+              <div class="card">
+                <img src="../img/cake4.jpg" class="card-img-top img-fluid"        
+                alt="Chocolate Cake"/>                        
+                <div class="card-block">
+                  <h4 class="card-title">Chocolate Cake</h4>
+                  <a href="#" class="btn btn-primary">Diary-free Chocolate cake</a> -->
+                  <!-- <p class="card-text">Chocolate cake for special occasion.</p> -->
+                  
+                </div>
+              </div>
+            </div>
+              </div> -->
+       
+       THIS
+       <div class="container">
+  <h2>Image Gallery</h2>
+  <p>The .thumbnail class can be used to display an image gallery.</p>
+  <p>The .caption class adds proper padding and a dark grey color to text inside thumbnails.</p>
+  <p>Click on the images to enlarge them.</p>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="../img/cake5.jpg" target="_blank">
+          <img  class="card-img-top img-fluid"src="../img/cake5.jpg" alt="Lights">
+          <div class="caption">
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="../img/cake6.jpg" target="_blank">
+          <img  class="card-img-top img-fluid" src="../img/cake6.jpg" alt="Nature" id="Wedding-Cake">
+          <div class="caption">
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="../img/cake9.jpg" target="_blank">
+          <img  class="card-img-top img-fluid" src="../img/cake9.jpg" alt="Cake" >
+          <div class="caption">
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="../img/cake9.jpg" target="_blank">
+          <img  class="card-img-top img-fluid"src="../img/cake9.jpg" alt="Cake" >
+          <div class="caption">
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="../img/cake8.jpg" target="_blank">
+          <img class="card-img-top img-fluid" src="../img/cake8.jpg" alt="Nature" >
+          <div class="caption">
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="../img/cake7.jpg"target="_blank">
+          <img  class="card-img-top img-fluid"src="../img/cake7.jpg" alt="Fjords" >
+          <div class="caption">
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+</body>
+</html>
+       THAT
       </section>
 
-      <section class="example-cakes">
-        <h3>Just a small sample of our bakes:</h3>
-        <ul>
-          <li>
-            <img
-              class="images"
-              src="../images/Cakes/cake-with-blackberries.jpg"
-              alt="Sponge cake with blackberries and flowers"
-            />
-          </li>
-          <li>
-            <img
-              class="images"
-              src="../images/Cakes/wedding-cake.jpg"
-              alt="Wedding cake"
-            />
-          </li>
-          <li>
-            <img
-              class="images"
-              src="../images/Cakes/cake-with-macarons.jpg"
-              alt="Cake decorated with macarons"
-            />
-          </li>
-          <li>
-            <img
-              class="images"
-              src="../images/Cakes/not-technically-a-cake.jpg"
-              alt="Frangipane with raspberries"
-            />
-          </li>
-        </ul>
-      </section>
+       
+     
     </main>
 
     <footer class="footer">
@@ -89,6 +264,15 @@
         <li><a href="">Contact</a></li>
         <li><a href="">Delivery</a></li>
       </ul>
+
+      <div class="social-media">      
+        <a href="#"id="Instagram" class="fa fa-Twitter"></a>
+        <a href="#" id="facebook" class=" fa fa-facebook"></a>
+        <li><a href="#" id="instagram" class="fa fa-instagram"></a></li>
+        </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
 </html>

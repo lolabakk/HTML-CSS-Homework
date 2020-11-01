@@ -2,11 +2,43 @@
 
 * {
   font-family: "Pacifico", cursive;
-  background-color: rgb(188, 243, 226);
+  background-color: rgb(187, 128, 187);
 }
 
+.top-header {
+margin-bottom: 10px;
+padding: 0.002rem;
+display: flex;
+}
+
+.logo{
+  height:30px;
+  justify-content: flex-end;
+  margin-left:2px;
+}
+
+.navbar{
+ padding-bottom: 0.01rem solid;
+ justify-content: center;
+ width: 100%;
+ 
+}
+
+.navbar brand{
+  padding-bottom: 0.01rem solid;
+  height: 80px;
+  max-width: 10%;
+ 
+  
+ } 
+
+/* .container {
+  display: flex;
+  align-content: space-between;
+} */
+
 li {
-  list-style: none;
+  list-style-type: none;
 }
 
 a {
@@ -16,19 +48,19 @@ a {
 
 /* Header styles */
 
-.top-header {
+/* .top-header {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .top-header .header-image {
-  height: 200px;
+  height: 100px;
   width: 200px;
   padding: 20px;
-}
+} */
 
-.contact-button {
+/* .contact-button {
   color: rgb(200, 144, 233);
   font-size: 25px;
   border-color: rgb(252, 251, 253);
@@ -36,8 +68,8 @@ a {
   border-width: medium;
   width: 125px;
   height: 50px;
-}
-
+} */
+/* 
 .navigation ul {
   display: flex;
   flex-direction: column;
@@ -48,16 +80,16 @@ a {
   padding-top: 25px;
   padding-right: 50px;
   font-size: 25px;
-}
+} */
 
 /* About section styles */
 
 .about {
-  padding-top: 50px;
+  padding-top: 60px;
 }
 
 .about h1 {
-  font-size: 40px;
+  font-size: 35px;
   color: rgb(255, 128, 153);
   text-align: center;
 }
@@ -69,17 +101,17 @@ a {
   padding-bottom: 50px;
 }
 
-.about .cupcakes {
+/* .about .cupcakes {
   display: flex;
   justify-content: center;
   width: 100%;
-  border: 2px solid rgb(252, 251, 253);
+  border: 3px solid rgb(252, 251, 253);
   margin: 0;
-}
+} */
 
-/* Example cake styles */
-
-.example-cakes h3 {
+Example cake styles */
+/* 
+ .example-cakes h3 {
   font-size: 25px;
   color: rgb(255, 128, 153);
   text-align: center;
@@ -89,9 +121,9 @@ a {
 
 .example-cakes ul {
   padding-left: 0;
-}
+} */
 
-.example-cakes li {
+/* .example-cakes li {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -100,8 +132,24 @@ a {
 
 .images {
   border: 2px solid rgb(252, 251, 253);
+} */
+
+/* .img-fluid {
+  max-width: 100%;
+  height:auto;
+} */
+
+.thumbnail {
+  border:1px solid blue ;
+
 }
 
+.col {
+  border: 1px solid green;
+
+}
+  
+]
 /* Footer styles */
 
 .footer {
@@ -124,18 +172,18 @@ a {
     justify-content: center;
     padding-left: 20px;
   }
-
+/* 
   .example-cakes ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-  }
+  } */
 
-  .example-cakes li {
+  /* .example-cakes li {
     width: 45%;
     height: 45%;
-  }
+  } */
 
   .footer ul {
     display: flex;
@@ -151,7 +199,7 @@ a {
     height: 250px;
     width: 250px;
   }
-
+/* 
   .contact-button {
     display: flex;
     flex-direction: column;
@@ -188,7 +236,7 @@ a {
   .example-cakes li {
     width: 20%;
     height: 20%;
-  }
+  } */
 
   .footer li {
     font-size: 30px;
